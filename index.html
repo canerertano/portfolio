@@ -31,15 +31,33 @@
 	<section id="content" class="container">
 		<section id="slide" class="container">
 			<div class="row">
-				<div class="col-3">
-					<i class="fa fa-camera-retro fa-2x"></i>
-				</div>
+				<div class="col-3"></div>
 				<div id="carousel" class="col-9">
-					<img class="carouselImage" src="img/pic1.jpg">
-					<img class="carouselImage" src="img/pic2.jpg">
-					<img class="carouselImage" src="img/pic3.jpg">
-					<img class="carouselImage" src="img/pic4.jpg">
-					<img class="carouselImage" src="img/pic5.jpg">
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/pic1-1024.jpg"/>
+						<source media="(min-width: 500px)" srcset="img/pic1-640.jpg"/>
+						<img class="carouselImage" src="img/pic1-320.jpg">
+					</picture>
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/pic2-1024.jpg"/>
+						<source media="(min-width: 500px)" srcset="img/pic2-640.jpg"/>
+						<img class="carouselImage" src="img/pic2-320.jpg">
+					</picture>
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/pic3-1024.jpg"/>
+						<source media="(min-width: 500px)" srcset="img/pic3-640.jpg"/>
+						<img class="carouselImage" src="img/pic3-320.jpg">
+					</picture>
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/pic4-1024.jpg"/>
+						<source media="(min-width: 500px)" srcset="img/pic4-640.jpg"/>
+						<img class="carouselImage" src="img/pic4-320.jpg">
+					</picture>
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/pic5-1024.jpg"/>
+						<source media="(min-width: 500px)" srcset="img/pic5-640.jpg"/>
+						<img class="carouselImage" src="img/pic5-320.jpg">
+					</picture>
 				</div>
 			</div>
 		</section>
