@@ -5,15 +5,9 @@
     -moz-box-sizing: border-box;
     -ms-box_sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Bitter', serif;
+    font-family: 'Quicksand', sans-serif;
     color: #2d3c49;
 }
-
-
-p {
-    font-family: 'Space Mono', monospace;
-}
-
 
 h2 {
     color: #7d97ad;
@@ -59,6 +53,11 @@ footer {
 
 .align-right {
     text-align: right;
+}
+
+
+.desc {
+    text-align: center;
 }
 
 
