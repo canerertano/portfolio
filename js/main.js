@@ -2,19 +2,19 @@ var myIndex = 0;
 carousel();
 
 function carousel() {
-    var x = document.getElementsByClassName('carouselImage');
+	var x = document.getElementsByClassName('carouselImage');
 
-    for (var i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
+	for (var i = 0; i < x.length; i++) {
+	   x[i].style.display = "none";
+	}
 
-    myIndex++;
+	myIndex++;
 
-    if (myIndex > x.length) {
-        myIndex = 1
-    }
+	if (myIndex > x.length) {
+		myIndex = 1
+	}
 
-    x[myIndex-1].style.display = "block";
+	x[myIndex-1].style.display = "block";
 
-    setTimeout(carousel, 6000);
+	setTimeout(carousel, 6000);
 }
