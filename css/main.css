@@ -28,7 +28,7 @@ footer {
 	margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #slide {
         display: none;
     }
@@ -38,7 +38,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
     #slide {
         display: block;
     }
@@ -57,6 +57,7 @@ footer {
 
 #carousel {
 	max-width: 80%;
+	padding-top: 30px;
 }
 
 
