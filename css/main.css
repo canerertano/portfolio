@@ -113,6 +113,7 @@ footer {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	font-size: 20px;
+	height: 32px;
 }
 
 
@@ -133,6 +134,23 @@ footer {
 	font-size: 20px;
 }
 
+
+.plum {
+	background-color: plum;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 20px;
+}
+
+
+.gold {
+	background-color: gold;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 20px;
+}
 
 .container{
 	margin-right:auto;
