@@ -28,6 +28,26 @@ footer {
 	margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+    #slide {
+        display: none;
+    }
+
+    #info {
+		display: block;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #slide {
+        display: block;
+    }
+
+    #info {
+		display: none;
+    }
+}
+
 
 #avatar {
 	width: 100%;
@@ -59,7 +79,7 @@ footer {
 
 
 .desc {
-	text-align: center;
+	text-align: left;
 }
 
 
