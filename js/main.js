@@ -1,7 +1,7 @@
 var myIndex = 0;
 carousel();
 
-var description = "I consider myself as a self-motivated and passionate software engineer with 4 years of industry experience. One of my goals is to become a Software Architect and other is contribute as much as I can to open-source community. To achieve my goals, I work hard at both work and home. Along with that, I spend my time with Java, Spring, Python, JavaScript, React.js and web development. Also, I have always interest in learning new technologies and tools. Along with that as you can see in this web page I spend my other time with photography :)";
+var description = "I consider myself as a self-motivated and passionate software engineer with 5 years of industry experience. One of my goals is to become a Software Architect and other is contribute as much as I can to open-source community. To achieve my goals, I work hard at both work and home. Along with that, I spend my time with Java, Spring, Python, JavaScript, React.js and web development. Also, I have always interest in learning new technologies and tools. Along with that as you can see in this web page I spend my other time with photography :)";
 
 document.getElementById("desc-text").innerHTML  = description;
 document.getElementById("desc-text2").innerHTML  = description;
