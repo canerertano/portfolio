@@ -1,7 +1,7 @@
 var myIndex = 0;
 carousel();
 
-var description = "I consider myself as a self-motivated and passionate software engineer with 5 years of industry experience. One of my goals is to become a Software Architect and other is contribute as much as I can to open-source community. To achieve my goals, I work hard at both work and home. Along with that, I spend my time with Java, Spring, Python, JavaScript, React.js and web development. Also, I have always interest in learning new technologies and tools. Along with that as you can see in this web page I spend my other time with photography :)";
+var description = "I am a self-motivated software engineer with 6 years of industry experience. I always look for new challenges and environments to grow both personally and professionally. Being a software engineer has always been my dream job, so I am truly passionate about it. As I possess 6 years of experience I have lots to learn and improve, but I can guarantee my determination and professionalism. I am a quick learner and I can adapt to any situation. I believe learning and exploring new things only happen when you are out of your comfort zone so working in a challenging workplace will make me stay away from my comfort zone. That is the most important thing what I really excited about. And my life philosophy is continuous development of myself so every day I try to be better than yesterday. Along with that as you can see in this web page I spend my other time with photography :)";
 
 document.getElementById("desc-text").innerHTML  = description;
 document.getElementById("desc-text2").innerHTML  = description;
